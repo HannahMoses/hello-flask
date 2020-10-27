@@ -5,7 +5,10 @@ Creates a dynamic web app
 Unit 2: Web Fundamentals
 Hello Flask
 Build a Development Web Application
-In this tutorial, we'll configure and build a web application. The configuration will be the hard part. When we're done, we'll be able to visit the server in our browser, and it will display this heartening message:
+In this tutorial, we'll configure and build a web application.
+The configuration will be the hard part. When we're done,
+we'll be able to visit the server in our browser, 
+and it will display this heartening message:
 
 Hello World screenshot
 
@@ -16,9 +19,16 @@ Navigate to your lc101 directory, make a directory for your project, and cd (cha
 
 $ mkdir hello-flask
 $ cd hello-flask
-To download the flask library, we're going to need a way to store libraries. So that this doesn't cause version mismatch issues with other versions of Python on your system - including system libraries which might be using Python - we'll install a virtual environment and host all our libraries within it.
+To download the flask library, we're going to need a way to store 
+libraries. So that this doesn't cause version mismatch issues 
+with other versions of Python on your system - including system
+libraries which might be using Python - we'll install a virtual
+environment and host all our libraries within it.
 
-Here, we're using the term "virtual environment" loosely. Rather than starting a full virtual machine, we're really just changing the PATH environment variable, which controls the order of directories that bash searches for programs.
+Here, we're using the term "virtual environment" loosely. Rather 
+than starting a full virtual machine, we're really just changing 
+the PATH environment variable, which controls the order of
+directories that bash searches for programs.
 (hello-flask) $ echo $PATH
 /home/dm/hello-flask/flask/bin:/home/dm/.rbenv/plugins/ruby-build/bin:/home/dm/.rbenv/shims:/home/dm/.rbenv/bin:/home/dm/bin:/home/dm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
 To create a virtual environment with Conda, we'll do the following:
